@@ -32,7 +32,7 @@ public class Test {
         Query query=session.createQuery("from Student where id=3");
         Object o=query.uniqueResult();//只针对于 已经知道只有一条语句时才使用
         System.out.println("o="+o);
-
+        System.out.println("sdsd545");
         //查询全部
         Query query1=session.createQuery("from com.ycy.po.Student");
         List<Student>list=query1.list();
